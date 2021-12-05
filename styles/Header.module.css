@@ -1,0 +1,146 @@
+/*  CSS Starting */
+
+/* Elements Section */
+
+/* Links */
+.links {
+  /* Making Display Flex  */
+  display: flex;
+
+  /* Settings list styles to none */
+  list-style: none;
+
+  /* Giving a gap between elements */
+  gap: 10px;
+
+  /* Changing Font Family */
+  font-family: montserrat, serif;
+
+  /* If ever needed */
+  color: black;
+}
+
+/* Header Styles */
+.header {
+  /* Making position to sticky */
+  position: sticky;
+
+  /* For Position Sticky to work */
+  top: 0;
+
+  /* display need to be flex */
+  display: flex;
+
+  /* Giving padding */
+  padding: 15px;
+
+  /* Giving space between */
+  justify-content: space-between;
+
+  /* Giving margin */
+  margin: 5px;
+
+  /* Glassmorphic, shadow box and others  */
+
+  /* Changing Background */
+  background: rgba(255, 255, 255, 0.3);
+
+  /* Box Shadow  */
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+
+  /* Blur */
+  backdrop-filter: blur(18px);
+
+  /* Blur for firefox and some browsers */
+  -webkit-backdrop-filter: blur(18px);
+
+  /* Border Radios */
+  border-radius: 10px;
+
+  /* Border */
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+/* For logo */
+.logo {
+  /* Giving margin */
+  margin-left: 100px;
+
+  /* Display to flex */
+  display: flex;
+
+  /* Cursor to pointer ( For Better UX ) */
+  cursor: pointer;
+}
+
+/* If some elements needed this */
+.flex {
+  /* Display to flex */
+  display: flex;
+}
+
+/* Navigation bar */
+.navigation {
+  /* Display to flex */
+  display: flex;
+
+  /* Giving margin */
+  margin-right: 20px;
+
+  /* Making a transition */
+  transition: top 0.3s;
+
+}
+
+/* Button */
+.btn {
+  /* Specifying the background color */
+  background-color: white;
+
+  /* Specifying border */
+  border: 2px solid black;
+
+  /* Border radius for rounded corners */
+  border-radius: 20px;
+
+  /* Giving padding */
+  padding: 10px;
+
+  /* Specifying font family */
+  font-family: "Readex Pro", sans-serif;
+
+  /* Giving transition */
+  transition: ease-in-out 400ms all;
+}
+
+/* Hover Section */
+
+/* When hovering button */
+.btn:hover {
+  /* Specifying background color */
+  background-color: black;
+
+  /* Specifying color */
+  color: white;
+}
+
+
+/* Responsive and Animative section (@)  */
+
+
+/* Responsiveness */
+
+/* Mobile Width */
+@media screen  and (max-width:500px) {
+  .logo {
+
+    /* Giving margin */
+    margin-left: 10px;
+
+    /* Display to flex */
+    display: flex;
+
+    /* Cursor to pointer ( For Better UX ) */
+    cursor: pointer;
+  }
+}
