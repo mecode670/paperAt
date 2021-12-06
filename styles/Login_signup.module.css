@@ -1,0 +1,42 @@
+.btn {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    /* border: 2px solid rgb(207, 217, 222); */
+    border: 2px solid black;
+    padding: 10px 30px;
+    gap: 8px;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+    background-color: white;
+    width: 230px;
+}
+.btnDiv{
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+
+@media screen and (max-width:500px){
+    .btn{
+        transition: all 1ms ease-in-out;
+
+    }
+    .btnDiv {
+        justify-content: center;
+        margin-top: 60px;
+    }
+}
+.totalDiv {
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

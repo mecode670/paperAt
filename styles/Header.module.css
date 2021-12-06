@@ -7,9 +7,6 @@
   /* Making Display Flex  */
   display: flex;
 
-  /* Settings list styles to none */
-  list-style: none;
-
   /* Giving a gap between elements */
   gap: 10px;
 
@@ -22,6 +19,10 @@
 
 /* Header Styles */
 .header {
+
+  /* For Preventing user to select */
+  user-select: none;
+  
   /* Making position to sticky */
   position: sticky;
 
@@ -63,6 +64,7 @@
 
 /* For logo */
 .logo {
+
   /* Giving margin */
   margin-left: 100px;
 
@@ -118,7 +120,7 @@
 /* When hovering button */
 .btn:hover {
   /* Specifying background color */
-  background-color: black;
+  background-color: rgb(29, 29, 29);
 
   /* Specifying color */
   color: white;
@@ -137,10 +139,5 @@
     /* Giving margin */
     margin-left: 10px;
 
-    /* Display to flex */
-    display: flex;
-
-    /* Cursor to pointer ( For Better UX ) */
-    cursor: pointer;
   }
 }

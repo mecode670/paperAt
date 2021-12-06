@@ -9,25 +9,29 @@ const Header = () => {
   return (
     <>
     <Head>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet"/>
     </Head>
     <header className={styles.header}>
       <div className={styles.logo}>
         <Link href="/">
+          <a>
           <Image src="/icon_dark_vercel.svg" height={Json.imgHW} width={Json.imgHW} alt="icon" />
+          </a>
         </Link>
       </div>
       <nav className={styles.navigation}>
-        <ul className={styles.links}>
+        <div className={styles.links}>
           <Link href="/login">
+            <a>
             <button className={styles.btn}>Login</button>
+            </a>
           </Link>
           <Link href="/signup">
+            <a>
             <button className={styles.btn}>Signup</button>
+            </a>
           </Link>
-        </ul>
+        </div>
       </nav>
     </header>
     </>

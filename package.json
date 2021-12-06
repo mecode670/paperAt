@@ -1,5 +1,5 @@
 {
-  "name": "papercat",
+  "name": "paperat",
   "private": true,
   "scripts": {
     "dev": "next dev",
