@@ -1,4 +1,4 @@
-import styles from "../../styles/Login_signup.module.css";
+import styles from "../../styles/continue.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
@@ -10,18 +10,18 @@ const index = () => {
  return (
     <>
       <Head>
-        <title>Login | PaperAt</title>
+        <title>Continue | PaperAt</title>
         <meta property="og:url" content="https://paperat.io" />
         <meta
           property="o
             g:type"
           content="website"
         />
-        <meta property="og:title" content="Login | PaperAt" />
-        <meta property="og:site_name" content="Login | PaperAt" />
+        <meta property="og:title" content="Continue | PaperAt" />
+        <meta property="og:site_name" content="Continue | PaperAt" />
         <meta
           property="og:description"
-          content="Login in with your paper account, right in your fingertips. "
+          content="Welcome friend, create a paper account right in your fingertips. "
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Rubik&display=swap"
@@ -38,7 +38,7 @@ const index = () => {
                 width={Json.volume}
                 height={Json.volume}
               />
-              Login with Google
+              Continue with Google
             </button>
             </a>
           </Link>
@@ -52,7 +52,7 @@ const index = () => {
                 width={Json.volume}
                 height={Json.volume}
               />
-              Login with Facebook
+              Continue with Facebook
             </button>
             </a>
           </Link>
@@ -66,7 +66,7 @@ const index = () => {
                 width={Json.volume}
                 height={Json.volume}
               />
-              Login with Apple
+              Continue with Apple
             </button>
             </a>
           </Link>

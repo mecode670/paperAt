@@ -21,14 +21,9 @@ const Header = () => {
       </div>
       <nav className={styles.navigation}>
         <div className={styles.links}>
-          <Link href="/login">
+          <Link href="/continue">
             <a>
-            <button className={styles.btn}>Login</button>
-            </a>
-          </Link>
-          <Link href="/signup">
-            <a>
-            <button className={styles.btn}>Signup</button>
+            <button className={styles.btn}>Continue</button>
             </a>
           </Link>
         </div>

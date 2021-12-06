@@ -96,6 +96,10 @@
 
 /* Button */
 .btn {
+
+  /* Cursor needs to be pointer */
+  cursor: pointer;
+
   /* Specifying the background color */
   background-color: white;
 

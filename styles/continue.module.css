@@ -10,7 +10,9 @@
     border-radius: 50px;
     transition: all 0.5s ease-in-out;
     background-color: white;
-    width: 230px;
+    width: 240px;
+    cursor: pointer;
+    justify-content: center;
 }
 .btnDiv{
     display: flex;
@@ -20,23 +22,40 @@
 
 .btn:hover {
     color: white;
-    background-color: black;
+    background-color: rgb(29, 29, 29);
 }
 
 @media screen and (max-width:500px){
     .btn{
         transition: all 1ms ease-in-out;
-
+        width: 300px;
     }
     .btnDiv {
         justify-content: center;
         margin-top: 60px;
     }
+    .totalDiv {
+        margin: 70px;
+    }
+}
+@media  screen and (min-width: 1200px){
+    .totalDiv {
+        gap: 100px;
+        margin-top: 150px;
+    }
+    .btn{
+        height: 80px;
+        width: 350px;
+    }
+
 }
 .totalDiv {
-    margin: 70px;
     display: flex;
+    gap: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.headLink {
+    font-family: "Cobin", sans-serif;
 }
